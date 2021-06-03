@@ -32,7 +32,6 @@ namespace Praktika.Controllers
         public ActionResult Contact1()
         {
             ViewBag.Message = "Your contact page. test1.";
-
             return View();
         }
     }
