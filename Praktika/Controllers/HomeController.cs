@@ -15,11 +15,7 @@ namespace Praktika.Controllers
 
         public ActionResult About()
         {
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> db7cb057b43d0ae8e79dcaa708bb87c492a7bc8c
             ViewBag.Message = "Your application description page. hello world";
  
 
