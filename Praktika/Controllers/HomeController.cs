@@ -15,12 +15,12 @@ namespace Praktika.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page. miranda";    
+            ViewBag.Message = "Your application description page. miranda88";    
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Contact() 
         {
             ViewBag.Message = "Your contact page. test1";
 
