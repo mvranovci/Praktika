@@ -15,15 +15,17 @@ namespace Praktika.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page. miranda";
-            ViewBag.Message = "Your application description page. dalina";
+            ViewBag.Message = "Your application description page. hello world";
+=======
+            ViewBag.Message = "Your application description page. dalina";    
+>>>>>>> Stashed changes
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Contact() 
         {
-            ViewBag.Message = "Your contact page. test1..";
+            ViewBag.Message = "Your contact page. test1.";
 
             return View();
         }
